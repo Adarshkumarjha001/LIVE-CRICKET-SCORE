@@ -1,4 +1,5 @@
 /* Basic styling for header, sections, and footer */
+/* Basic styling for header, sections, and footer */
 body {
     font-family: sans-serif;
     background-color: #f0f0f0;
@@ -6,15 +7,24 @@ body {
   }
   
   header {
-    background-color: #009933; /* Cricket-themed green */
-    color: #fff;
+    background-color: red; /* Cricket-themed green */
+    color: blue;
     text-align: center;
     padding: 20px;
   }
   
   header img {
     float: right;
-    height: 50px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  #demo{
+    float:left;
+    border-radius: 50%;
+    height: 120px;
+   
+
+
   }
   
   main {
